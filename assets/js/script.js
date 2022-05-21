@@ -73,7 +73,7 @@ var generatePassword = function generatePassword() {
 var validLength = function ValidLength() {
 
   var userChoice = window.prompt("Input the length of the password");
-
+   
   //user selected "cancel"
   if (userChoice === null) {
     return false;
@@ -82,7 +82,8 @@ var validLength = function ValidLength() {
 
     //check for line space , alphabets , range btw 8 to 128
     if (userPassword.length <= 0 || !/^[0-9]+$/.test(userPassword.length) ||
-      !(parseInt(userPassword.length) >= 8 && !parseInt(userPassword.length) <= 128)) {
+        !(parseInt(userPassword.length) >= 8 && parseInt(userPassword.length) <= 128)
+       ) {
       window.alert("Wrong Value Inputted for the password!");
       window.alert("The password length should be between 8 to 128 characters! Try Again");
       return validLength();
