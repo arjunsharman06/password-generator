@@ -4,9 +4,9 @@ Password Generator Tool
 
 ## Description
 The Password Generator Tool has following features/validations : 
-* The length of the password should be atleast 8 characters and no more than 128 characters.
-* The user has the flexibity to choose the combination from the following items i.e lowercase, uppercase, numeric, and/or special characters.
-* The selection of one of the type i.e lowercase, uppercase, numeric, and/or special characters is mandatory.
+* The length of the password should be at-least 8 characters and no more than 128 characters.
+* The user has the flexibility to choose the combination from the following items i.e. lowercase, uppercase, numeric, and/or special characters.
+* The selection of one of the type i.e. lowercase, uppercase, numeric, and/or special characters is mandatory.
 * If at any instance , user input a wrong value or the validation is failed then it will ask the user to again re-input the values or choose cancel to exit. 
 * The password will be generated on the page , once the user has followed the above criteria.
 
